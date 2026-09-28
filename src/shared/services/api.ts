@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://api-noted.fynworks.my.id/api',
+    baseURL: import.meta.env.VITE_API_BASE_URL || 'https://api-noted.fynworks.my.id/api',
     headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
