@@ -99,16 +99,16 @@ Aplikasi ini menggunakan environment variable dengan awalan `VITE_`. Buat file `
 cp .env.example .env
 ```
 
-Isi file environment variable:
+Sesuaikan nilai environment variable di dalam `.env`:
 
 ```env
-VITE_API_BASE_URL=https://api-noted.fynworks.my.id/api
+VITE_API_BASE_URL=https://your-api-domain.com/api
 ```
 
 > **Mode Environment yang tersedia:**
 > - `.env` : Dibaca di semua mode.
 > - `.env.development` : Dibaca saat menjalankan `npm run dev`.
-> - `.env.example` : Template referensi environment untuk developer lain.
+> - `.env.example` : Template referensi environment untuk developer lain (tanpa kredensial rahasia).
 
 ### 5. Menjalankan Aplikasi
 
